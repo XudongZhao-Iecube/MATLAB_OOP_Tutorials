@@ -11,10 +11,13 @@ classdef BasicClass
             end
         end
         function r = roundOff(obj)
-         r = round([obj.Value],2);
-      end
-      function r = multiplyBy(obj,n)
-         r = [obj.Value] * n;
-      end
-   end
+            r = round([obj.Value],2);
+        end
+        function r = multiplyBy(obj,n)
+            r = [obj.Value] * n;
+        end
+        function r = plus(o1,o2)
+            r = [o1.Value] + [o2.Value];
+        end
+	end
 end

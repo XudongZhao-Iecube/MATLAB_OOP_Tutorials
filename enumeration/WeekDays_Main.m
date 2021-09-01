@@ -1,0 +1,2 @@
+today = WeekDays.Tuesday;
+today
